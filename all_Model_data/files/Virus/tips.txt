@@ -1,0 +1,12 @@
+IDM takes over a download from any browser if its type matches the list of types/extensions. You may edit the list of extensions in "IDM Options->File types".
+If you have problems downloading a file from a server (like busy server, multiple timeouts, other server or network related problems), you may leave this file alone in the queue of IDM scheduler and start the queue. IDM scheduler will retry downloading the file every 30 seconds.
+IDM will take over any download if you hold down a special key while clicking its download link in a browser. (you need to set this key in IDM options, General Tab, Keys button. Note that "Insert" key should work with most browsers)
+If you hold down the ALT key while clicking on a download link in a browser, IDM will not take over the download and let the browser download the file. (you may change this key in IDM options, General Tab, Keys button)
+If you don't understand anything, just try to press F1 key and the context sensitive help will appear.
+If you don't want IDM to take over any downloads from a browser, turn off the browser integration in IDM options.
+You may disable the download complete dialog that suggests opening the file. Just uncheck "Show download complete dialog" box in "IDM Options->Downloads"
+You may disable the start download dialog that asks where to save the file. Just uncheck "Show start download dialog" box in "IDM Options->Downloads"
+You may minimize or disable progress download dialogs in IDM Options->Downloads.
+You may run IDM from command line to download files. Read "Help->Starting Downloads" chapter for more information.
+You may drag files from IDM main window and drop them to other applications (for example, Winamp, Media Player, etc.). You may also use drag and drop to move or copy files from IDM to any Windows folders.
+If you don't want to enter the same name and password over and over again every time you download from a protected server, you may add the server, the login name and the password to sites logins list in "IDM Options->Sites Logins"
